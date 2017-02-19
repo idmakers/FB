@@ -20,7 +20,6 @@ app.post('/webhook/', function (req, res) {
   }
   res.sendStatus(200);
 });
-
 var token = "<page_access_token>";
 
 function sendTextMessage(sender, text) {
@@ -43,3 +42,4 @@ function sendTextMessage(sender, text) {
     }
   });
 }
+這邊
